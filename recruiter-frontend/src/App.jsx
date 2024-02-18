@@ -1,15 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Navbar from './components/common/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-     <h1>recruiter</h1>
-    </>
+    <div className='overflow-x-hidden'>
+     <Navbar/>
+    </div>
   )
 }
 
