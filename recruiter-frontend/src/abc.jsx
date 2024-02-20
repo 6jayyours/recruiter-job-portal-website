@@ -1,25 +1,249 @@
-<section class="py-36 md:h-screen h-auto items-center flex relative overflow-hidden" id="home">
-    <div class="container relative">
-        <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
-            <div class="lg:col-span-7 md:col-span-6 mt-14 md:mt-0">
-                <div class="lg:me-8">
-                    <h4 class="lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 font-bold">
-                        Find the 
-                        <span class="before:block before:absolute before:-inset-2 before:-skew-y-6 before:bg-emerald-600 relative inline-block">
-                            <span class="relative text-white font-bold">
-                                Best Job
-                                </span>
-                                </span> <br/> offer for you.</h4>
-                                
-                                <p class="text-slate-400 text-lg max-w-xl">Find Jobs, Employment &amp; Career Opportunities. Some of the companies we've helped recruit excellent applicants over the years.</p><div class="bg-white dark:bg-slate-900 border-0 shadow rounded p-3 mt-4"><form action="#"><div class="registration-form text-dark text-start"><div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-0 gap-6"><div class="filter-search-form relative filter-border"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="icons" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M20 6h-3V4c0-1.103-.897-2-2-2H9c-1.103 0-2 .897-2 2v2H4c-1.103 0-2 .897-2 2v11c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V8c0-1.103-.897-2-2-2zm-5-2v2H9V4h6zM4 8h16v4h-3v-2h-2v2H9v-2H7v2H4V8zm0 11v-5h3v2h2v-2h6v2h2v-2h3.001v5H4z"></path>
-                                </svg>
-                                <input name="name" type="text" id="job-keyword" class="form-input filter-input-box bg-gray-50 dark:bg-slate-800 border-0" placeholder="Search..."/>
-                                </div>
-                                <div class="filter-search-form relative filter-border">
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" class="icons" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"></path></svg><div class="form-input filter-input-box bg-gray-50 dark:bg-slate-800 border-0 css-b62m3t-container"><span id="react-select-2-live-region" class="css-7pg0cj-a11yText"></span><span aria-live="polite" aria-atomic="false" aria-relevant="additions text" class="css-7pg0cj-a11yText"></span><div class=" css-13cymwt-control"><div class=" css-hlgwow"><div class=" css-1jqq78o-placeholder" id="react-select-2-placeholder">Select...</div><div class=" css-19bb58m" data-value=""><input class="" autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-2-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" role="combobox" aria-describedby="react-select-2-placeholder" value="" style="color: inherit; background: 0px center; opacity: 1; width: 100%; grid-area: 1 / 2; font: inherit; min-width: 2px; border: 0px; margin: 0px; outline: 0px; padding: 0px;"/></div></div><div class=" css-1wy0on6"><span class=" css-1u9des2-indicatorSeparator"></span><div class=" css-1xc3v61-indicatorContainer" aria-hidden="true"><svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-8mmkcg"><path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path></svg></div></div></div></div></div><input type="submit" id="search" name="search" class="btn bg-emerald-600 hover:bg-emerald-700 border-emerald-600 hover:border-emerald-700 text-white searchbtn submit-btn w-100" value="Search" style="height: 60px;"></div></div></form></div><div class="mt-2"><span class="text-slate-400"><span class="text-dark">Popular Searches :</span> Designer, Developer, Web, IOS, PHP Senior Engineer</span></div></div></div><div class="lg:col-span-5 md:col-span-6"><div class="relative"><div class="relative flex justify-end"><img src="/static/media/ab01.016884c7bf778010e79c.jpg" class="lg:w-[400px] w-[280px] rounded-xl shadow dark:shadow-gray-700" alt=""><div class="absolute lg:bottom-20 -bottom-24 xl:-end-20 lg:-end-10 end-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-60 z-2"><h5 class="text-lg font-semibold mb-3">5k+ candidates get job</h5><ul class="list-none relative"><li class="inline-block relative"><a href="/index-six"><img src="/static/media/01.6ac85de7298319b1f8d5.jpg" class="size-10 rounded-full shadow-md dark:shadow-gray-700 border-4 border-white dark:border-slate-900 relative hover:z-1 hover:scale-105 transition-all duration-500" alt=""></a></li><li class="inline-block relative -ms-3"><a href="/index-six"><img src="/static/media/02.7df14e12e444ad660802.jpg" class="size-10 rounded-full shadow-md dark:shadow-gray-700 border-4 border-white dark:border-slate-900 relative hover:z-1 hover:scale-105 transition-all duration-500" alt=""></a></li><li class="inline-block relative -ms-3"><a href="/index-six"><img src="/static/media/03.ba5f8794c055cc1488b5.jpg" class="size-10 rounded-full shadow-md dark:shadow-gray-700 border-4 border-white dark:border-slate-900 relative hover:z-1 hover:scale-105 transition-all duration-500" alt=""></a></li><li class="inline-block relative -ms-3"><a href="/index-six"><img src="/static/media/04.35463172278c4051b5f4.jpg" class="size-10 rounded-full shadow-md dark:shadow-gray-700 border-4 border-white dark:border-slate-900 relative hover:z-1 hover:scale-105 transition-all duration-500" alt=""></a></li><li class="inline-block relative -ms-3"><a href="/index-six"><img src="/static/media/05.a7ab2c82813cb95da9d6.jpg" class="size-10 rounded-full shadow-md dark:shadow-gray-700 border-4 border-white dark:border-slate-900 relative hover:z-1 hover:scale-105 transition-all duration-500" alt=""></a></li><li class="inline-block relative -ms-3"><a class="btn btn-icon table-cell rounded-full bg-emerald-600 hover:bg-emerald-700 border-emerald-600 hover:border-emerald-700 text-white hover:z-1 hover:scale-105  items-center justify-center" href="/index-six"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="mx-auto" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8Z"></path><path d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8Z"></path></svg></a></li></ul></div></div><div class="absolute md:-start-5 start-0 -bottom-16"><img src="/static/media/ab04.c122948ac7bf15368325.jpg" class="lg:w-[280px] w-[200px] border-8 border-white dark:border-slate-900 rounded-xl" alt=""><div class="absolute flex justify-between items-center -top-6 md:-start-10 start-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-max"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" class="text-[24px] text-amber-500" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M172,228a12,12,0,0,1-12,12H96a12,12,0,0,1,0-24h64A12,12,0,0,1,172,228ZM230.94,58.48A115.25,115.25,0,0,0,190.4,13.86a12,12,0,1,0-12.8,20.29,90.1,90.1,0,0,1,32,35.38A12,12,0,0,0,220.3,76a11.86,11.86,0,0,0,5.51-1.35A12,12,0,0,0,230.94,58.48ZM46.37,69.53a90.1,90.1,0,0,1,32-35.38A12,12,0,1,0,65.6,13.86,115.25,115.25,0,0,0,25.06,58.48a12,12,0,0,0,5.13,16.17A11.86,11.86,0,0,0,35.7,76,12,12,0,0,0,46.37,69.53Zm173.51,98.35A20,20,0,0,1,204,200H52a20,20,0,0,1-15.91-32.12c7.17-9.33,15.73-26.62,15.88-55.94A76,76,0,0,1,204,112C204.15,141.26,212.71,158.55,219.88,167.88ZM196.34,176c-8.16-13-16.19-33.57-16.34-63.94A52,52,0,1,0,76,112c-.15,30.42-8.18,51-16.34,64Z"></path></svg><p class="text-lg font-semibold mb-0 ms-2">Job Alert Subscribe</p></div></div><div class="overflow-hidden absolute md:h-[500px] h-[400px] md:w-[500px] w-[400px] bg-gradient-to-tl to-emerald-600/5 via-emerald-600/50 from-emerald-600 bottom-1/2 translate-y-1/2 start-1/2 ltr:-translate-x-1/2 rtl:translate-x-1/2 -z-1 rounded-full">
-                                    </div>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    </section>
+import React from "react";
+
+const abc = () => {
+  return (
+    <footer class="relative bg-slate-900 dark:bg-slate-800">
+      <div class="container">
+        <div class="grid grid-cols-1">
+          <div class="relative py-12">
+            <div class="relative w-full">
+              <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                <div class="md:col-span-3">
+                  <a
+                    class="flex justify-center md:justify-start focus:outline-none"
+                    href="/candidate-profile"
+                  >
+                    <img src="" class="" alt="" />
+                  </a>
+                </div>
+                <div class="md:col-span-9">
+                  <ul class="list-disc footer-list ltr:md:text-right rtl:md:text-left text-center space-x-3">
+                    <li class="inline-block">
+                      <a
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out font-medium me-4"
+                        href="/index"
+                      >
+                        Home
+                      </a>
+                    </li>
+                    <li class="inline-block mt-[10px] md:mt-0">
+                      <a
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out font-medium me-4"
+                        href="/services"
+                      >
+                        How it works
+                      </a>
+                    </li>
+                    <li class="inline-block mt-[10px] md:mt-0">
+                      <a
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out font-medium me-4"
+                        href="/candidate-profile"
+                      >
+                        Create a job
+                      </a>
+                    </li>
+                    <li class="inline-block mt-[10px] md:mt-0">
+                      <a
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out font-medium me-4"
+                        href="/aboutus"
+                      >
+                        About us
+                      </a>
+                    </li>
+                    <li class="inline-block mt-[10px] md:mt-0">
+                      <a
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out font-medium"
+                        href="/contact"
+                      >
+                        Contact us
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-[30px] px-0 border-t border-gray-800 dark:border-gray-700">
+        <div class="container text-center">
+          <div class="grid md:grid-cols-2 items-center gap-6">
+            <div class="ltr:md:text-left rtl:md:text-right text-center">
+              <p class="mb-0 text-gray-300 font-medium">
+                ©2024 Jobstack. Design &amp; Develop with{" "}
+                <i class="mdi mdi-heart text-red-600"></i> by{" "}
+                <a
+                  class="text-reset"
+                  href="https://shreethemes.in/"
+                  target="_blank"
+                >
+                  Shreethemes
+                </a>
+                .
+              </p>
+            </div>
+            <ul class="list-none ltr:md:text-right rtl:md:text-left text-center space-x-0.5">
+              <li class="inline">
+                <a
+                  class="btn btn-icon btn-sm border-2 border-gray-800 dark:border-gray-700 rounded-md hover:border-emerald-600 dark:hover:border-emerald-600 hover:bg-emerald-600 dark:hover:bg-emerald-600 text-white"
+                  href="https://1.envato.market/shreethemes-portfolio"
+                  target="_blank"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 0 0-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 1 0 0 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 0 0-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 0 0-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 0 0-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 0 0-35.4-35.2zM305.7 253l575.8 1.9-56.4 315.8-452.3.8L305.7 253zm96.9 612.7c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 0 1-31.6 31.6zm325.1 0c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 0 1-31.6 31.6z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="inline">
+                <a
+                  class="btn btn-icon btn-sm border-2 border-gray-800 dark:border-gray-700 rounded-md hover:border-emerald-600 dark:hover:border-emerald-600 hover:bg-emerald-600 dark:hover:bg-emerald-600 text-white"
+                  href="https://dribbble.com/shreethemes"
+                  target="_blank"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="inline">
+                <a
+                  class="btn btn-icon btn-sm border-2 border-gray-800 dark:border-gray-700 rounded-md hover:border-emerald-600 dark:hover:border-emerald-600 hover:bg-emerald-600 dark:hover:bg-emerald-600 text-white"
+                  href="https://www.behance.net/shreethemes"
+                  target="_blank"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M634 294.3h199.5v48.4H634zM434.1 485.8c44.1-21.1 67.2-53.2 67.2-102.8 0-98.1-73-121.9-157.3-121.9H112v492.4h238.5c89.4 0 173.3-43 173.3-143 0-61.8-29.2-107.5-89.7-124.7zM220.2 345.1h101.5c39.1 0 74.2 10.9 74.2 56.3 0 41.8-27.3 58.6-66 58.6H220.2V345.1zm115.5 324.8H220.1V534.3H338c47.6 0 77.7 19.9 77.7 70.3 0 49.6-35.9 65.3-80 65.3zm575.8-89.5c0-105.5-61.7-193.4-173.3-193.4-108.5 0-182.3 81.7-182.3 188.8 0 111 69.9 187.2 182.3 187.2 85.1 0 140.2-38.3 166.7-120h-86.3c-9.4 30.5-47.6 46.5-77.3 46.5-57.4 0-87.4-33.6-87.4-90.7h256.9c.3-5.9.7-12.1.7-18.4zM653.9 537c3.1-46.9 34.4-76.2 81.2-76.2 49.2 0 73.8 28.9 78.1 76.2H653.9z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="inline">
+                <a
+                  class="btn btn-icon btn-sm border-2 border-gray-800 dark:border-gray-700 rounded-md hover:border-emerald-600 dark:hover:border-emerald-600 hover:bg-emerald-600 dark:hover:bg-emerald-600 text-white"
+                  href="http://linkedin.com/company/shreethemes"
+                  target="_blank"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                    <path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="inline">
+                <a
+                  class="btn btn-icon btn-sm border-2 border-gray-800 dark:border-gray-700 rounded-md hover:border-emerald-600 dark:hover:border-emerald-600 hover:bg-emerald-600 dark:hover:bg-emerald-600 text-white"
+                  href="https://www.facebook.com/shreethemes"
+                  target="_blank"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 320 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="inline">
+                <a
+                  class="btn btn-icon btn-sm border-2 border-gray-800 dark:border-gray-700 rounded-md hover:border-emerald-600 dark:hover:border-emerald-600 hover:bg-emerald-600 dark:hover:bg-emerald-600 text-white"
+                  href="https://www.instagram.com/shreethemes/"
+                  target="_blank"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="inline">
+                <a
+                  class="btn btn-icon btn-sm border-2 border-gray-800 dark:border-gray-700 rounded-md hover:border-emerald-600 dark:hover:border-emerald-600 hover:bg-emerald-600 dark:hover:bg-emerald-600 text-white"
+                  href="https://twitter.com/shreethemes"
+                  target="_blank"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6-18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6.8 15 2.5 22.1-80.5-4-151.9-42.6-199.6-101.3-8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7-16-.4-31-4.8-44-12.1v1.2c0 47 33.4 86.1 77.7 95-8.1 2.2-16.7 3.4-25.5 3.4-6.2 0-12.3-.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3-33.1 26-74.9 41.5-120.3 41.5-7.8 0-15.5-.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-.1-8.4-.3-12.5C462.6 146 479 129 492 109.5z"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="inline">
+                <a
+                  class="btn btn-icon btn-sm border-2 border-gray-800 dark:border-gray-700 rounded-md hover:border-emerald-600 dark:hover:border-emerald-600 hover:bg-emerald-600 dark:hover:bg-emerald-600 text-white"
+                  href="mailto:support@shreethemes.in"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default abc;
