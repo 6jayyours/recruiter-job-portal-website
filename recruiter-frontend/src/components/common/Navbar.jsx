@@ -46,7 +46,7 @@ const Navbar = () => {
             </div>
 
             <div>
-              <button className="hidden md:block bg-sky-700 text-white hover:bg-sky-950 duration-300 rounded-lg py-2 px-4">
+              <button className="hidden md:block bg-indigo-700 text-white hover:bg-sky-950 duration-300 rounded-lg py-2 px-4">
                 Get Started
               </button>
             </div>
