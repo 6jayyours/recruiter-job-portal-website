@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { UserLinks, HirerLinks } from "../../constants/NavLinks";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 import MobileMenu from "./section/MobileMenu";
+import navLogo from "../../assets/logo.png"
 
 const Navbar = () => {
   const links = UserLinks;
@@ -19,9 +20,9 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
             {/* logo section */}
             <div>
-              <a href="/" className="flex items-center gap-3">
-                <img src="" alt="logo" className="w-5" />
-                <span className="text-2xl sm:text-3xl font-semibold">
+              <a href="/" className="flex items-center">
+                <img src={navLogo} alt="logo" className="w-12 mt-1" />
+                <span className="text-xl sm:text-4xl font-bold text-indigo-500">
                   Recruiter
                 </span>
               </a>

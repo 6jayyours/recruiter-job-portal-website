@@ -15,12 +15,11 @@ const Test = () => {
                 className="w-full h-auto md:max-w-lg rounded-xl"
               />
               <div className="bg-white px-4 py-2 rounded-xl shadow-xl absolute -bottom-4 right-6 ">
-  <p className="text-indigo-500">⭐ Candidates</p>
-  <h1 className="font-bold text-indigo-500">
-    1000+ <span className="font-normal">Placed</span>
-  </h1>
-</div>
-
+                <p className="text-indigo-500">⭐ Candidates</p>
+                <h1 className="font-bold text-indigo-500">
+                  1000+ <span className="font-normal">Placed</span>
+                </h1>
+              </div>
             </div>
             {/* Text section */}
             <div className="space-y-6 md:space-y-10 order-2 md:order-1 xl:pr-10 p-4 md:p-0">

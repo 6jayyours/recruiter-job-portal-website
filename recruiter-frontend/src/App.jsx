@@ -1,5 +1,5 @@
-import Test from './Test'
 import Footer from './components/common/Footer'
+import Landing from './components/common/Landing'
 import Navbar from './components/common/Navbar'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='overflow-x-hidden'>
      <Navbar/>
-    <Test/>
+    <Landing/>
     <Footer/>
     </div>
   )

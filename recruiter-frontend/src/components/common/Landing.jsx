@@ -1,36 +1,55 @@
-import React from 'react'
+import React from "react";
+import heroImage from "../../assets/landing.png";
 
 const Landing = () => {
   return (
-    <section className="py-36 md:h-screen h-auto items-center flex relative overflow-hidden" id="home">
-      <div className="container relative">
-        <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
-          {/* Left side content */}
-          <div className="lg:col-span-7 md:col-span-6 mt-14 md:mt-0">
-            <div className="lg:me-8">
-              <h4 className="lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 font-bold">
-                Find the 
-                <span className="before:block before:absolute before:-inset-2 before:-skew-y-6 before:bg-sky-600 relative inline-block">
-                  <span className="relative text-white font-bold">
-                    Best Job
-                  </span>
-                </span> <br/> offer for you.
-              </h4>
-              
-              <p className="text-slate-400 text-lg max-w-xl">
-                Find Jobs, Employment &amp; Career Opportunities. Some of the companies we've helped recruit excellent applicants over the years.
+    <>
+      <main className="bg-white">
+        <div className="container mx-auto min-h-screen flex flex-col md:flex-row justify-center items-center mt-0 md:mt-2 sm:mt-1">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 place-items-center">
+            {/* Image section */}
+            <div className="order-1 md:order-2 relative p-4 md:p-0">
+              <img
+                src={heroImage}
+                alt="Landing page"
+                className="w-full h-auto md:max-w-lg rounded-xl"
+              />
+              <div className="bg-white px-4 py-2 rounded-xl shadow-xl absolute -bottom-4 right-6 ">
+                <p className="text-indigo-500">⭐ Candidates</p>
+                <h1 className="font-bold text-indigo-500">
+                  1000+ <span className="font-normal">Placed</span>
+                </h1>
+              </div>
+            </div>
+            {/* Text section */}
+            <div className="space-y-6 md:space-y-10 order-2 md:order-1 xl:pr-10 p-4 md:p-0">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-7xl font-bold text-gray-800 leading-tight">
+                Find the
+                <span className="text-indigo-500">
+                  {" "}
+                  <br /> Best Job
+                </span>
+                <br /> offer for you.
+              </h1>
+
+              <p className="text-gray-600 max-w-lg">
+                Find Jobs, Employment, and Career Opportunities. Some of the
+                companies we've helped recruit excellent applicants over the
+                years.
               </p>
-              {/* Form goes here */}
+              <div className="flex flex-col sm:flex-row justify-center sm:justify-start space-y-3 sm:space-y-0 sm:space-x-3">
+                <button className="bg-indigo-700 text-white hover:bg-indigo-900 duration-300 rounded-md py-2 px-6 text-base sm:text-lg">
+                  Find job
+                </button>
+                <button className="bg-indigo-700 text-white hover:bg-indigo-900 duration-300 rounded-md py-2 px-6 text-base sm:text-lg">
+                  Hire talent
+                </button>
+              </div>
             </div>
           </div>
-
-          {/* Right side content */}
-          <div className="lg:col-span-5 md:col-span-6">
-            {/* Image and other elements go here */}
-          </div>
         </div>
-      </div>
-    </section>
+      </main>
+    </>
   )
 }
 
