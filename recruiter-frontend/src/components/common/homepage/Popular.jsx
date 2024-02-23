@@ -8,7 +8,7 @@ import desImg from "../../../assets/uiuxdesigner.png";
 const Popular = () => {
   return (
     <>
-      <section className="px-4 py-8  min-h-[84vh] mt-0 md:mt-2 sm:mt-1">
+      <section className="px-4 py-8  min-h-[80vh] mt-0 md:mt-2 sm:mt-1">
       <div className="text-center pb-8">
           <h3 className="text-2xl font-semibold mb-4">Trending Job Categories</h3>
           <p className="text-slate-400 max-w-xl mx-auto">

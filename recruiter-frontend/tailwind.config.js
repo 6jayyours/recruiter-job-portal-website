@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'explore-bg': "url('/src/assets/explorebg.jpg')",
+      }),
+    },
   },
   plugins: [],
 }

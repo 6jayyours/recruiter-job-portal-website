@@ -20,7 +20,7 @@ const HowItWorks = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8">
           <div className="bg-white rounded-xl shadow-xl py-8 px-6">
-            <div className="flex justify-center items-center bg-indigo-300 rounded-lg w-16 h-16 mx-auto mb-6">
+            <div className="flex justify-center items-center bg-indigo-300 rounded-lg w-16 h-16 mx-auto mb-6 shadow-lg">
               <MdMonitor className="text-indigo-700 text-3xl" />
             </div>
             <div className="text-center">
@@ -39,7 +39,7 @@ const HowItWorks = () => {
           </div>
 
           <div className="bg-white rounded-xl shadow-xl py-8 px-6">
-            <div className="flex justify-center items-center bg-indigo-300 rounded-lg w-16 h-16 mx-auto mb-6">
+            <div className="flex justify-center items-center bg-indigo-300 rounded-lg w-16 h-16 mx-auto mb-6 shadow-lg">
               <MdTimer className="text-indigo-700 text-3xl" />
             </div>
             <div className="text-center">
@@ -58,7 +58,7 @@ const HowItWorks = () => {
           </div>
 
           <div className="bg-white rounded-xl shadow-xl py-8 px-6">
-            <div className="flex justify-center items-center bg-indigo-300 rounded-lg w-16 h-16 mx-auto mb-6">
+            <div className="flex justify-center items-center bg-indigo-300 rounded-lg w-16 h-16 mx-auto mb-6 shadow-lg">
               <MdOutlineLinkedCamera className="text-indigo-700 text-3xl" />
             </div>
             <div className="text-center">
