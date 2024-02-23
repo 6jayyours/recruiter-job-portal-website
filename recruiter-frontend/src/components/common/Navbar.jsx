@@ -15,8 +15,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav >
-        <div className="container py-3 px-5 md:py-2 md:px-5">
+      <nav>
+        <div className="fixed bg-white container py-3 px-5 md:py-2 md:px-5">
           <div className="flex justify-between items-center">
             {/* logo section */}
             <div>

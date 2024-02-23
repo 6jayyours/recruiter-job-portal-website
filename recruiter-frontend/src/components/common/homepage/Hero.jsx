@@ -1,14 +1,14 @@
 import React from "react";
-import heroImage from "../../assets/landing.png";
+import heroImage from "../../../assets/landing.png";
 
-const Landing = () => {
+const Hero = () => {
   return (
     <>
-      <main className="bg-white">
+      <main className="bg-white ">
         <div className="container mx-auto min-h-screen flex flex-col md:flex-row justify-center items-center mt-0 md:mt-2 sm:mt-1">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 place-items-center">
             {/* Image section */}
-            <div className="order-1 md:order-2 relative p-4 md:p-0">
+            <div className="order-1 md:order-2 relative  p-4 md:p-0">
               <img
                 src={heroImage}
                 alt="Landing page"
@@ -53,4 +53,4 @@ const Landing = () => {
   )
 }
 
-export default Landing
+export default Hero
