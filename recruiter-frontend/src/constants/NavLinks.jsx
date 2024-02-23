@@ -2,7 +2,7 @@ export  const UserLinks = [
     {
       id: 1,
       name: "Home",
-      link: "/home",
+      link: "/",
     },
     {
       id: 2,
@@ -12,7 +12,7 @@ export  const UserLinks = [
     {
       id: 3,
       name: "Jobs",
-      link: "/about",
+      link: "/jobs",
     },
     {
       id: 4,
@@ -25,7 +25,7 @@ export  const UserLinks = [
     {
       id: 1,
       name: "Home",
-      link: "/home",
+      link: "/",
     },
     {
       id: 2,
@@ -34,8 +34,8 @@ export  const UserLinks = [
     },
     {
       id: 3,
-      name: "Jobs",
-      link: "/about",
+      name: "Candidates",
+      link: "/candidates",
     },
     {
       id: 4,
