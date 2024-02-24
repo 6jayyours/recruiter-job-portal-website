@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: theme => ({
         'explore-bg': "url('/src/assets/explorebg.jpg')",
+        'register-bg': "url('/src/assets/register.jpg')",
       }),
     },
   },
