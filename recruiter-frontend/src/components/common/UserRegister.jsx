@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import logo from "../../assets/logo.png";
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { registerUser } from '../../redux/slice/authSlice';
 
 const UserRegister = () => {
   const [firstname, setFirstname] = useState("");
@@ -15,6 +17,8 @@ const UserRegister = () => {
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
   const [confirmPasswordError, setConfirmPasswordError] = useState("");
+
+  const dispatch = useDispatch();
 
   // Function to handle firstname change
   const handleFirstnameChange = (e) => {
@@ -93,38 +97,11 @@ const UserRegister = () => {
   // Function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Validate fields before submission
-    if (firstname.length < 2) {
-      setFirstnameError("First name must be at least 2 characters long");
-    }
-
-    if (lastname.length < 2) {
-      setLastnameError("Last name must be at least 2 characters long");
-    }
-
-    if (username.length < 3) {
-      setUsernameError("Username must be at least 3 characters long");
-    }
-
-    if (!/\S+@\S+\.\S+/.test(email)) {
-      setEmailError("Invalid email address");
-    }
-
-    if (password.length < 8) {
-      setPasswordError("Password must be at least 8 characters long");
-    }
-
-    if (password !== confirmPassword) {
-      setConfirmPasswordError("Passwords do not match");
-    }
-
-    if (firstnameError || lastnameError || usernameError || emailError || passwordError || confirmPasswordError) {
-      return;
-    }
-
-    // Proceed with form submission
-    console.log("Form submitted:", { firstname, lastname, username, email, password,role:"USER" });
+    const formData = {
+      username,
+      password,
+    };
+    dispatch(registerUser(formData))
   };
 
   return (

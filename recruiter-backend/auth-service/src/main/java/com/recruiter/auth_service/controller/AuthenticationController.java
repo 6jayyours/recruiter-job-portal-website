@@ -6,13 +6,11 @@ import com.recruiter.auth_service.model.response.AuthenticationResponse;
 import com.recruiter.auth_service.model.response.RegisterResponse;
 import com.recruiter.auth_service.service.AuthenticationService;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/auth")
+@CrossOrigin(origins = "*")
 public class AuthenticationController {
     private final AuthenticationService authenticationService;
 

@@ -1,30 +1,30 @@
+// Login component with corrected links
 import React, { useState } from "react";
-import logo from "../../assets/logo.png"; // Ensure you have the correct path to the logo
-import { Link } from "react-router-dom";
+import logo from "../../assets/logo.png";
+import { Link, useNavigate } from "react-router-dom";
+import { loginUser } from "../../redux/slice/authSlice";
+import { useDispatch } from "react-redux";
 
 const Login = () => {
-  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [emailError, setEmailError] = useState("");
+  const [usernameError, setUsernameError] = useState("");
   const [passwordError, setPasswordError] = useState("");
 
-  // Function to handle email change
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
 
-    // Validate email
-    if (!/\S+@\S+\.\S+/.test(e.target.value)) {
-      setEmailError("Invalid email address");
+  const handleUsernameChange = (e) => {
+    setUsername(e.target.value);
+    if (e.target.value.length < 5) {
+      setUsernameError("Username must be at least 5 characters long");
     } else {
-      setEmailError("");
+      setUsernameError("");
     }
   };
 
-  // Function to handle password change
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
-
-    // Validate password length
     if (e.target.value.length < 8) {
       setPasswordError("Password must be at least 8 characters long");
     } else {
@@ -35,22 +35,17 @@ const Login = () => {
   // Function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Validate email and password before submission
-    if (!/\S+@\S+\.\S+/.test(email)) {
-      setEmailError("Invalid email address");
-    }
-
-    if (password.length < 8) {
-      setPasswordError("Password must be at least 8 characters long");
-    }
-
-    if (emailError || passwordError) {
-      return;
-    }
-
-    // Proceed with form submission
-    console.log("Form submitted:", { email, password });
+    const formData = {
+      username,
+      password,
+    };
+    dispatch(loginUser(formData))
+    .then((response) => {
+      navigate("/");
+    })
+    .catch((error) => {
+      console.error("Login failed: ", error);
+    });
   };
 
   return (
@@ -74,16 +69,16 @@ const Login = () => {
                 <form className="text-left" onSubmit={handleSubmit}>
                   <div className="grid grid-cols-1 gap-4">
                     <div className="mb-4">
-                      <label className="font-semibold">Email:</label>
+                      <label className="font-semibold">Username:</label>
                       <input
                         className="form-input mt-2 rounded-md w-full border border-gray-300 p-2"
-                        type="email"
-                        value={email}
-                        onChange={handleEmailChange}
+                        type="text"
+                        value={username}
+                        onChange={handleUsernameChange}
                       />
-                      {emailError && (
+                      {usernameError && (
                         <p className="text-red-500 text-sm mt-1">
-                          {emailError}
+                          {usernameError}
                         </p>
                       )}
                     </div>
@@ -110,35 +105,31 @@ const Login = () => {
                         <label className="text-gray-600">Remember Me</label>
                       </div>
                       <div>
-                        <a className="text-indigo-600 hover:underline">
+                        <Link to="/forgotPassword" className="text-indigo-600 hover:underline">
                           Forgot Password?
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="mb-4">
                       <input
                         type="submit"
                         className="cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white rounded-md w-full py-2"
-                        value="Register"
+                        value="Login"
                       />
                     </div>
                     <div className="text-center flex flex-col">
                       <div>
-                      <span className="text-gray-600 mr-2">
-                        Dont have an account?
-                      </span>
+                        <span className="text-gray-600 mr-2">
+                          Don't have an account?
+                        </span>
                       </div>
                       <div className="flex justify-center gap-3">
-                      <Link to={"/userRegistration"}>
-                        <a className="text-indigo-700 font-bold cursor-pointer hover:underline">
+                        <Link to="/userRegistration" className="text-indigo-700 font-bold cursor-pointer hover:underline">
                           User Sign Up
-                        </a>
-                      </Link>
-                      <Link to={"/hirerRegistration"}>
-                        <a className="text-indigo-700 font-bold cursor-pointer hover:underline">
+                        </Link>
+                        <Link to="/hirerRegistration" className="text-indigo-700 font-bold cursor-pointer hover:underline">
                           Recruiter Sign Up
-                        </a>
-                      </Link>
+                        </Link>
                       </div>
                     </div>
                   </div>
