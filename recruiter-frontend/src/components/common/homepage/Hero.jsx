@@ -1,5 +1,6 @@
 import React from "react";
 import heroImage from "../../../assets/landing.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -38,12 +39,16 @@ const Hero = () => {
                 years.
               </p>
               <div className="flex flex-col sm:flex-row justify-center sm:justify-start space-y-3 sm:space-y-0 sm:space-x-3">
+                <Link to={"/userRegistration"}>
                 <button className="bg-indigo-700 text-white hover:bg-indigo-900 duration-300 rounded-md py-2 px-6 text-base sm:text-lg">
                   Find job
                 </button>
+                </Link>
+                <Link to={"/hirerRegistration"}>
                 <button className="bg-indigo-700 text-white hover:bg-indigo-900 duration-300 rounded-md py-2 px-6 text-base sm:text-lg">
                   Hire talent
                 </button>
+                </Link>
               </div>
             </div>
           </div>

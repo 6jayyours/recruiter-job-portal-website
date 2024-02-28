@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.png"; // Ensure you have the correct path to the logo
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -81,7 +82,9 @@ const Login = () => {
                         onChange={handleEmailChange}
                       />
                       {emailError && (
-                        <p className="text-red-500 text-sm mt-1">{emailError}</p>
+                        <p className="text-red-500 text-sm mt-1">
+                          {emailError}
+                        </p>
                       )}
                     </div>
                     <div className="mb-4">
@@ -93,7 +96,9 @@ const Login = () => {
                         onChange={handlePasswordChange}
                       />
                       {passwordError && (
-                        <p className="text-red-500 text-sm mt-1">{passwordError}</p>
+                        <p className="text-red-500 text-sm mt-1">
+                          {passwordError}
+                        </p>
                       )}
                     </div>
                     <div className="flex justify-between items-center mb-4">
@@ -117,13 +122,24 @@ const Login = () => {
                         value="Register"
                       />
                     </div>
-                    <div className="text-center">
+                    <div className="text-center flex flex-col">
+                      <div>
                       <span className="text-gray-600 mr-2">
                         Dont have an account?
                       </span>
-                      <a className="text-indigo-700 font-bold cursor-pointer hover:underline">
-                        Sign Up
-                      </a>
+                      </div>
+                      <div className="flex justify-center gap-3">
+                      <Link to={"/userRegistration"}>
+                        <a className="text-indigo-700 font-bold cursor-pointer hover:underline">
+                          User Sign Up
+                        </a>
+                      </Link>
+                      <Link to={"/hirerRegistration"}>
+                        <a className="text-indigo-700 font-bold cursor-pointer hover:underline">
+                          Recruiter Sign Up
+                        </a>
+                      </Link>
+                      </div>
                     </div>
                   </div>
                 </form>

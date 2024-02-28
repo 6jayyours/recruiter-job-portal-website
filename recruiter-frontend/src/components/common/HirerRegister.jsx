@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from "../../assets/logo.png";
+import { Link } from 'react-router-dom';
 
 const UserRegister = () => {
   const [username, setUsername] = useState("");
@@ -161,7 +162,9 @@ const UserRegister = () => {
                     </div>
                     <div className="text-center">
                       <span className="text-gray-600 mr-2">Already have an account?</span>
-                      <a className="text-indigo-700 font-bold cursor-pointer hover:underline">Sign In</a>
+                      <Link to={"/login"}>
+                        <span className="text-indigo-700 font-bold cursor-pointer hover:underline">Sign In</span>
+                      </Link>
                     </div>
                   </div>
                 </form>
