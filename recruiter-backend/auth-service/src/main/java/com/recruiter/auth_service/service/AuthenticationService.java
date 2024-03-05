@@ -70,6 +70,7 @@ public class AuthenticationService {
             user.setEmail(request.getEmail());
             user.setStatus(true);
             user.setRole(request.getRole());
+            user.setRegistrationDate(LocalDateTime.now());
 
             if (Role.USER.equals(request.getRole())) {
                 user.setOtp(otp);
