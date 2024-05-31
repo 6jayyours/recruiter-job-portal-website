@@ -10,7 +10,7 @@ const Landing = () => {
             <div className="lg:me-8">
               <h4 className="lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 font-bold">
                 Find the 
-                <span className="before:block before:absolute before:-inset-2 before:-skew-y-6 before:bg-emerald-600 relative inline-block">
+                <span className="before:block before:absolute before:-inset-2 before:-skew-y-6 before:bg-sky-600 relative inline-block">
                   <span className="relative text-white font-bold">
                     Best Job
                   </span>

@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='overflow-x-hidden'>
      <Navbar/>
-
+    <Landing/>
     </div>
   )
 }
